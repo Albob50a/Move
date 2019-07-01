@@ -217,16 +217,27 @@ client.on("message", message => {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '579109625530679296').setName("┏");
-client.channels.find('id', '579109625530679296').setName("┏●");
-client.channels.find('id', '579109625530679296').setName("┏●i");
-client.channels.find('id', '579109625530679296').setName("┏●in");
-client.channels.find('id', '579109625530679296').setName("┏●in-");
-client.channels.find('id', '579109625530679296').setName("┏●in-f");
-client.channels.find('id', '579109625530679296').setName("┏●in-fo");
-client.channels.find('id', '579109625530679296').setName("┏●in-fo●");
-client.channels.find('id', '579109625530679296').setName("┏●in-fo●┓");
-  }, 3000);
+client.channels.find('id', '595047963236106253').setName("W");
+client.channels.find('id', '595047963236106253').setName("WE");
+client.channels.find('id', '595047963236106253').setName("WEL");
+client.channels.find('id', '595047963236106253').setName("WELC");
+client.channels.find('id', '595047963236106253').setName("WELCO");
+client.channels.find('id', '595047963236106253').setName("WELCOM");
+client.channels.find('id', '595047963236106253').setName("WELCOME");
+  }, 2500);
+});
+
+
+
+client.on("ready", async  => {
+setInterval(function(){
+client.channels.find('id', '595034134565355522').setName("S");
+client.channels.find('id', '595034134565355522').setName("Sp");
+client.channels.find('id', '595034134565355522').setName("Spi");
+client.channels.find('id', '595034134565355522').setName("Spid");
+client.channels.find('id', '595034134565355522').setName("Spide");
+client.channels.find('id', '595034134565355522').setName("Spider");
+  }, 2500);
 });
 	
 client.on('guildMemberAdd', member=> {
